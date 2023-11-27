@@ -20,7 +20,7 @@ export class Tab3Page {
     const randomPokemonId = Math.floor(Math.random() * 100);
     this.getPokemonData(randomPokemonId).then((pokemonData) => {
       this.pokemon1 = pokemonData;
-      this.pokemon2 = { ...pokemonData }; // Cria uma cópia dos dados do Pokémon para a segunda coluna
+      this.pokemon2 = { ...pokemonData }; 
     });
   }
 
